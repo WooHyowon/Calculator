@@ -54,14 +54,22 @@
 		CD0139941FE9A66B00B7E5DB /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				CD0139951FE9A66B00B7E5DB /* AppDelegate.swift */,
+				CD0139AA1FEAFD1B00B7E5DB /* Supporting Files */,
 				CD0139971FE9A66B00B7E5DB /* ViewController.swift */,
 				CD0139991FE9A66B00B7E5DB /* Main.storyboard */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		CD0139AA1FEAFD1B00B7E5DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD0139951FE9A66B00B7E5DB /* AppDelegate.swift */,
 				CD01399C1FE9A66B00B7E5DB /* Assets.xcassets */,
 				CD01399E1FE9A66B00B7E5DB /* LaunchScreen.storyboard */,
 				CD0139A11FE9A66B00B7E5DB /* Info.plist */,
 			);
-			path = Calculator;
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,7 +284,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 73GH6V239H;
-				INFOPLIST_FILE = Calculator/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Calculator/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = knu.computer.2011105060.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -291,7 +299,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 73GH6V239H;
-				INFOPLIST_FILE = Calculator/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Calculator/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = knu.computer.2011105060.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
